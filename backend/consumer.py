@@ -34,7 +34,7 @@ class SensorDataConsumer:
             alert_type = data.get("alert_type", "")
 
             elapsed = time.time() - self.start_time
-            marker = "⚠️  ALERT" if is_alert else "📊 TELEMETRY"
+            marker = "ALERT" if is_alert else "TELEMETRY"
 
             print(f"\n{'='*70}")
             print(f"  [{marker}] Message #{self.messages_received} (t+{elapsed:.1f}s)")

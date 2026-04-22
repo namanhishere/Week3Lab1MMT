@@ -19,11 +19,11 @@ MQTT_TOPIC = "sensor/telemetry"
 MQTT_ALERT_TOPIC = "sensor/alert"
 
 # Gateway HTTP server
-GATEWAY_HTTP_HOST = "0.0.0.0"
+GATEWAY_HTTP_HOST = "localhost"
 GATEWAY_HTTP_PORT = 8090
 
 # CoAP gateway
-COAP_HOST = "0.0.0.0"
+COAP_HOST = "localhost"
 COAP_PORT = 5683
 
 # Sensor data schema
