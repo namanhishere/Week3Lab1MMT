@@ -1,0 +1,33 @@
+[MQTT Device mqtt-sensor-01] Starting telemetry (10 messages, 2s interval)
+[MQTT Device mqtt-sensor-01] Protocol model: Publish/Subscribe (fire-and-forget with QoS 0)
+------------------------------------------------------------
+[MQTT Device] Connected to broker successfully
+  [1/10] PUBLISH sensor/telemetry/mqtt-sensor-01 (0.2ms) T=18.77°C  H=49.41%  SM=77.82%
+  → Message 1 published (acknowledged)
+  [2/10] PUBLISH sensor/telemetry/mqtt-sensor-01 (0.2ms) T=33.76°C  H=64.59%  SM=58.73%
+  → Message 2 published (acknowledged)
+  [3/10] PUBLISH sensor/telemetry/mqtt-sensor-01 (0.2ms) T=25.95°C  H=48.2%  SM=38.53%
+  → Message 3 published (acknowledged)
+  [4/10] PUBLISH sensor/telemetry/mqtt-sensor-01 (0.1ms) T=33.9°C  H=58.99%  SM=31.34%
+  → Message 4 published (acknowledged)
+  [5/10] PUBLISH sensor/telemetry/mqtt-sensor-01 (0.1ms) T=19.53°C  H=93.64%  SM=66.55%
+  → Message 5 published (acknowledged)
+  [6/10] PUBLISH sensor/telemetry/mqtt-sensor-01 (0.1ms) T=36.36°C  H=40.07%  SM=14.48%
+  → Message 6 published (acknowledged)
+  [7/10] PUBLISH sensor/telemetry/mqtt-sensor-01 (0.1ms) T=31.55°C  H=73.34%  SM=51.25%
+  → Message 7 published (acknowledged)
+  [8/10] PUBLISH sensor/telemetry/mqtt-sensor-01 (0.1ms) T=40.82°C  H=88.04%  SM=66.49%
+  → Message 8 published (acknowledged)
+  [9/10] PUBLISH sensor/telemetry/mqtt-sensor-01 (0.1ms) T=25.08°C  H=87.57%  SM=37.54%
+  → Message 9 published (acknowledged)
+  [10/10] PUBLISH sensor/telemetry/mqtt-sensor-01 (0.2ms) T=18.13°C  H=43.6%  SM=58.44%
+
+  Average publish time: 0.1ms
+  Min/Max publish time: 0.1ms / 0.2ms
+
+  → Message 10 published (acknowledged)
+[MQTT Device mqtt-sensor-01] Sending ALERT: soil moisture too low!
+[MQTT Device] Connected to broker successfully
+  PUBLISH sensor/alert/mqtt-sensor-01 (QoS 1, 0.2ms)
+
+[MQTT Device] Done. Pub/Sub model confirmed — device fires and does not wait for backend processing.

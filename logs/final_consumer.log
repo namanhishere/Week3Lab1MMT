@@ -1,0 +1,318 @@
+======================================================================
+  IoT BACKEND CONSUMER — RabbitMQ
+======================================================================
+  Exchange:  iot_telemetry (topic)
+  Queue:     sensor_data
+  Binding:   sensor.#
+  Broker:    localhost:5672
+======================================================================
+  Waiting for messages... (Ctrl+C to stop and show summary)
+
+
+======================================================================
+  [📊 TELEMETRY] Message #1 (t+20.6s)
+  Protocol: HTTP
+  Device:   http-sensor-01
+  temperature: 31.19
+  humidity: 30.3
+  soil_moisture: 28.67
+  Routing:  sensor.http-sensor-01
+  Queue:    sensor.http-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #2 (t+22.6s)
+  Protocol: HTTP
+  Device:   http-sensor-01
+  temperature: 40.62
+  humidity: 83.57
+  soil_moisture: 76.01
+  Routing:  sensor.http-sensor-01
+  Queue:    sensor.http-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #3 (t+24.6s)
+  Protocol: HTTP
+  Device:   http-sensor-01
+  temperature: 25.37
+  humidity: 59.02
+  soil_moisture: 11.75
+  Routing:  sensor.http-sensor-01
+  Queue:    sensor.http-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #4 (t+26.6s)
+  Protocol: HTTP
+  Device:   http-sensor-01
+  temperature: 23.98
+  humidity: 49.46
+  soil_moisture: 42.43
+  Routing:  sensor.http-sensor-01
+  Queue:    sensor.http-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #5 (t+28.6s)
+  Protocol: HTTP
+  Device:   http-sensor-01
+  temperature: 23.46
+  humidity: 52.04
+  soil_moisture: 63.98
+  Routing:  sensor.http-sensor-01
+  Queue:    sensor.http-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #6 (t+30.6s)
+  Protocol: HTTP
+  Device:   http-sensor-01
+  temperature: 30.56
+  humidity: 73.55
+  soil_moisture: 40.05
+  Routing:  sensor.http-sensor-01
+  Queue:    sensor.http-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #7 (t+32.6s)
+  Protocol: HTTP
+  Device:   http-sensor-01
+  temperature: 28.57
+  humidity: 89.66
+  soil_moisture: 26.24
+  Routing:  sensor.http-sensor-01
+  Queue:    sensor.http-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #8 (t+34.6s)
+  Protocol: HTTP
+  Device:   http-sensor-01
+  temperature: 24.3
+  humidity: 74.85
+  soil_moisture: 37.69
+  Routing:  sensor.http-sensor-01
+  Queue:    sensor.http-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #9 (t+36.6s)
+  Protocol: HTTP
+  Device:   http-sensor-01
+  temperature: 27.03
+  humidity: 88.91
+  soil_moisture: 75.45
+  Routing:  sensor.http-sensor-01
+  Queue:    sensor.http-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #10 (t+38.7s)
+  Protocol: HTTP
+  Device:   http-sensor-01
+  temperature: 41.39
+  humidity: 73.19
+  soil_moisture: 22.76
+  Routing:  sensor.http-sensor-01
+  Queue:    sensor.http-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [⚠️  ALERT] Message #11 (t+38.7s)
+  Protocol: HTTP
+  Device:   http-sensor-01
+  Alert:    temperature_high
+  Message:  CRITICAL: Greenhouse temperature exceeds threshold!
+  temperature: 45.7
+  Routing:  sensor.alert.http-sensor-01
+  Queue:    sensor.alert.http-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #12 (t+58.2s)
+  Protocol: MQTT
+  Device:   mqtt-sensor-01
+  temperature: 33.15
+  humidity: 55.11
+  soil_moisture: 61.4
+  Routing:  sensor.mqtt-sensor-01
+  Queue:    sensor.mqtt-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #13 (t+60.2s)
+  Protocol: MQTT
+  Device:   mqtt-sensor-01
+  temperature: 40.21
+  humidity: 47.32
+  soil_moisture: 61.87
+  Routing:  sensor.mqtt-sensor-01
+  Queue:    sensor.mqtt-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #14 (t+62.2s)
+  Protocol: MQTT
+  Device:   mqtt-sensor-01
+  temperature: 36.58
+  humidity: 78.48
+  soil_moisture: 43.29
+  Routing:  sensor.mqtt-sensor-01
+  Queue:    sensor.mqtt-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #15 (t+64.2s)
+  Protocol: MQTT
+  Device:   mqtt-sensor-01
+  temperature: 37.14
+  humidity: 39.4
+  soil_moisture: 20.26
+  Routing:  sensor.mqtt-sensor-01
+  Queue:    sensor.mqtt-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #16 (t+66.2s)
+  Protocol: MQTT
+  Device:   mqtt-sensor-01
+  temperature: 41.74
+  humidity: 64.93
+  soil_moisture: 74.2
+  Routing:  sensor.mqtt-sensor-01
+  Queue:    sensor.mqtt-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #17 (t+68.2s)
+  Protocol: MQTT
+  Device:   mqtt-sensor-01
+  temperature: 19.45
+  humidity: 48.89
+  soil_moisture: 78.54
+  Routing:  sensor.mqtt-sensor-01
+  Queue:    sensor.mqtt-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #18 (t+70.2s)
+  Protocol: MQTT
+  Device:   mqtt-sensor-01
+  temperature: 22.03
+  humidity: 74.18
+  soil_moisture: 76.02
+  Routing:  sensor.mqtt-sensor-01
+  Queue:    sensor.mqtt-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #19 (t+72.2s)
+  Protocol: MQTT
+  Device:   mqtt-sensor-01
+  temperature: 18.85
+  humidity: 39.69
+  soil_moisture: 69.82
+  Routing:  sensor.mqtt-sensor-01
+  Queue:    sensor.mqtt-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #20 (t+74.2s)
+  Protocol: MQTT
+  Device:   mqtt-sensor-01
+  temperature: 36.61
+  humidity: 87.54
+  soil_moisture: 30.13
+  Routing:  sensor.mqtt-sensor-01
+  Queue:    sensor.mqtt-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #21 (t+76.2s)
+  Protocol: MQTT
+  Device:   mqtt-sensor-01
+  temperature: 41.53
+  humidity: 88.69
+  soil_moisture: 26.4
+  Routing:  sensor.mqtt-sensor-01
+  Queue:    sensor.mqtt-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [⚠️  ALERT] Message #22 (t+77.2s)
+  Protocol: MQTT
+  Device:   mqtt-sensor-01
+  Alert:    soil_moisture_low
+  Message:  CRITICAL: Soil moisture below minimum threshold!
+  soil_moisture: 5.2
+  Routing:  sensor.alert.mqtt-sensor-01
+  Queue:    sensor.alert.mqtt-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #23 (t+103.5s)
+  Protocol: CoAP
+  Device:   coap-sensor-01
+  temperature: 21.02
+  humidity: 46.79
+  soil_moisture: 63.81
+  Routing:  sensor.coap-sensor-01
+  Queue:    sensor.coap-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #24 (t+104.5s)
+  Protocol: CoAP
+  Device:   coap-sensor-01
+  temperature: 37.6
+  humidity: 47.75
+  soil_moisture: 39.87
+  Routing:  sensor.coap-sensor-01
+  Queue:    sensor.coap-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #25 (t+105.5s)
+  Protocol: CoAP
+  Device:   coap-sensor-01
+  temperature: 23.52
+  humidity: 54.16
+  soil_moisture: 39.61
+  Routing:  sensor.coap-sensor-01
+  Queue:    sensor.coap-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #26 (t+106.5s)
+  Protocol: CoAP
+  Device:   coap-sensor-01
+  temperature: 40.49
+  humidity: 81.69
+  soil_moisture: 27.72
+  Routing:  sensor.coap-sensor-01
+  Queue:    sensor.coap-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [📊 TELEMETRY] Message #27 (t+107.5s)
+  Protocol: CoAP
+  Device:   coap-sensor-01
+  temperature: 31.74
+  humidity: 31.75
+  soil_moisture: 77.78
+  Routing:  sensor.coap-sensor-01
+  Queue:    sensor.coap-sensor-01 → sensor_data
+======================================================================
+
+======================================================================
+  [⚠️  ALERT] Message #28 (t+108.5s)
+  Protocol: CoAP
+  Device:   coap-sensor-01
+  Alert:    humidity_high
+  Message:  CRITICAL: Humidity exceeds safe threshold!
+  humidity: 97.5
+  Routing:  sensor.alert.coap-sensor-01
+  Queue:    sensor.alert.coap-sensor-01 → sensor_data
+======================================================================

@@ -1,0 +1,21 @@
+[HTTP Device http-sensor-01] Starting telemetry (10 messages, 2s interval)
+[HTTP Device http-sensor-01] Protocol model: Request/Response
+------------------------------------------------------------
+  [1/10] POST /telemetry → 200 (9.5ms) T=31.19°C  H=30.3%  SM=28.67%
+  [2/10] POST /telemetry → 200 (2.6ms) T=40.62°C  H=83.57%  SM=76.01%
+  [3/10] POST /telemetry → 200 (2.2ms) T=25.37°C  H=59.02%  SM=11.75%
+  [4/10] POST /telemetry → 200 (2.3ms) T=23.98°C  H=49.46%  SM=42.43%
+  [5/10] POST /telemetry → 200 (2.2ms) T=23.46°C  H=52.04%  SM=63.98%
+  [6/10] POST /telemetry → 200 (2.2ms) T=30.56°C  H=73.55%  SM=40.05%
+  [7/10] POST /telemetry → 200 (2.2ms) T=28.57°C  H=89.66%  SM=26.24%
+  [8/10] POST /telemetry → 200 (2.2ms) T=24.3°C  H=74.85%  SM=37.69%
+  [9/10] POST /telemetry → 200 (2.2ms) T=27.03°C  H=88.91%  SM=75.45%
+  [10/10] POST /telemetry → 200 (2.2ms) T=41.39°C  H=73.19%  SM=22.76%
+
+  Average latency: 3.0ms
+  Min/Max latency: 2.2ms / 9.5ms
+
+[HTTP Device http-sensor-01] Sending ALERT: temperature too high!
+  POST /alert → 200 (1.7ms)
+
+[HTTP Device] Done. Request/response model confirmed — each send waits for server ACK.
